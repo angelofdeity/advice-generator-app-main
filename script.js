@@ -1,6 +1,4 @@
 const printslip = (id, advice) => {
-  console.log('ID:', id);
-  console.log('Advice:', advice);
   document.querySelector('#advice-id').textContent += id;
   document.querySelector('#advice-text').textContent = `${advice}`;
 };

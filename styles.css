@@ -11,9 +11,9 @@ body {
 .advice-box {
     margin-inline: auto;
     width: 350px;
-    margin-top: 40%;
+    margin-top: 25vh;
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 65px;
     text-align: center;
     background-color: hsl(217, 19%, 24%);
     border: 1px solid hsl(218, 23%, 16%);
@@ -38,13 +38,13 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -25px;
+    bottom: -32.5px;
     margin-inline: auto;
     background-color: hsl(150, 100%, 66%);
-    padding: 15px;
+    padding: 20px;
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
 }
 
@@ -56,8 +56,10 @@ footer {
 .attribution {
     font-size: 11px;
     text-align: center;
+    font-style: italic;
+    color: hsl(150, 100%, 66%);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(193, 38%, 86%);
 }
